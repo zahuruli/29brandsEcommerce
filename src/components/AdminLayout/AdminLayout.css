@@ -1,0 +1,38 @@
+.adminlayout_ecomm_admin_nav {
+  height: 6vh;
+  width: 100vw;
+  background-color: #3498db;
+}
+
+.admin_layout_separator {
+  display: flex;
+  width: 100vw;
+  height: 94vh;
+}
+
+.adminlayout_ecomm_admin_side {
+  width: 9%;
+  height: 100%;
+  background-color: #3498db;
+}
+
+.container_adminlayout_children {
+  width: 91%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0dfff;
+}
+
+.childen_div {
+  height: 96%;
+  width: 96%;
+  border-radius: 1vw;
+  background-color: #c0dfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

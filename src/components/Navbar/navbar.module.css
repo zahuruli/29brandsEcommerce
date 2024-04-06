@@ -1,0 +1,194 @@
+.navbar_wrapper {
+  background-color: #f0ca28;
+  padding: 1vw 2vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+/* ============hambarger_div============ */
+.hambarger_div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hambarger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+.hambarger_cross {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.7rem;
+}
+
+/* ============logo_div============ */
+
+.logo_div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5vh;
+}
+.logo_image_div {
+}
+
+.logoImage {
+  height: 200px;
+  width: 210px;
+}
+/* ============search_div============ */
+
+.search_div {
+  flex: 2.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_input_div {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.search_input_div_modal {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.search_input {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #f6df7e;
+  padding: 10px;
+  border: none;
+  border-radius: 80px;
+}
+.search_input:focus {
+  outline: none;
+  border-color: transparent;
+}
+.search_input::placeholder {
+  color: rgb(58, 57, 57);
+  font-size: 0.9rem;
+}
+.search_button {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  transform: translateY(-50%);
+  /* pointer-events: none; */ /* Remove this line */
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+  z-index: 1000;
+}
+
+.search_input_div_mobile {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 65%;
+  top: 38%;
+}
+/* ============cart_div============ */
+
+.cart_div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+  margin-top: 0.8vh;
+}
+.cart_icon_text_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.badgesize {
+  font-size: 100px;
+}
+
+.cart_phone {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.callIcon {
+  margin-right: 4px;
+  font-size: 1.4rem;
+}
+
+.phoneNumber {
+  text-decoration: none;
+  /* color: white; */
+}
+
+.cart_icon {
+  margin: 0 7px;
+  font-size: 3rem;
+  /* color: white; */
+}
+
+/* /========/drawer: */
+.drawerWrapper {
+}
+.drawer {
+  background-color: #f0ca28;
+}
+
+.category_btn {
+  border: none;
+  margin: 2vw 0.5vw;
+  padding: 1vw 0;
+  background-color: transparent;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  min-width: 20vw;
+  color: black;
+  text-align: left;
+}
+/* /==================/========media query=============================== */
+
+@media screen and (min-width: 600px) {
+  .hambarger_div {
+    display: none;
+  }
+
+  .search_input_div_mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search_input_div {
+    display: none;
+  }
+  .cart_phone {
+    display: none;
+  }
+  .logo_div {
+    margin-left: 2rem;
+  }
+}

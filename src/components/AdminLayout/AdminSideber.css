@@ -1,0 +1,38 @@
+.container_adminsideber {
+  display: flex;
+}
+
+.adminSideber {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  row-gap: 25px;
+  margin-left: 0.5vw;
+  margin-top: 1vw;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar_link {
+  width: 7vw;
+  height: 3.5vw;
+  color: #ffffff;
+  font-size: 1vw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1.5vh;
+  transition: transform 0.3s ease;
+  text-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.sidebar_link:active {
+  transform: scale(0.9);
+}

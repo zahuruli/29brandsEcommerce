@@ -1,0 +1,25 @@
+.ourdisplayslider_container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+/* .sliderImage_div {
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 1vh;
+}
+.slider_image_display {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.sliderImage_div {
+  width: 100%;
+  height: 35vh; /* Change to auto or set a specific height */
+  margin-bottom: 1vh;
+}
+.slider_image_display {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Change to contain */
+}

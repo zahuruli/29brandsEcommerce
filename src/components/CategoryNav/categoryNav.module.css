@@ -1,0 +1,34 @@
+.CategoryNav_wrapper {
+  background-color: #f3d553;
+  padding: 0.5vw 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.categories_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.5vh auto;
+  padding: 0 1.5vw;
+  width: 95%;
+  min-height: 9vh;
+}
+
+.category_btn {
+  border: none;
+  margin: 0.9vw 1.4vw;
+  background-color: transparent;
+  color: rgb(44, 44, 44);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.category_btn:hover {
+  transform: scale(0.9);
+}

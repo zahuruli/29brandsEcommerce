@@ -1,0 +1,16 @@
+.container_adminavber {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_adminavber .imgclass {
+  width: 180px;
+  height: 160px;
+  margin-top: -55px;
+  margin-left: 6vw;
+}
+
+.admin_navber {
+  margin-top: 0.5vw;
+  margin-right: 20px;
+}

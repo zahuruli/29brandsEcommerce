@@ -1,0 +1,109 @@
+.Home_wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+.categoryNav {
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
+  width: 100%;
+}
+.home_content {
+  position: absolute;
+  top: 21vh;
+  width: 100%;
+  min-height: 79vh;
+  /* background-color: #fefaea; */
+  background-color: #ffffff;
+}
+.content {
+  min-height: 73.8vh;
+  width: 100%;
+}
+.image_slider_div {
+  /* margin-top: -1vh; */
+}
+/* /============/hotDeal_div=========== */
+.hotDeal_div {
+  background-color: #f6df7e;
+  width: 86%;
+  margin: 0 auto;
+  padding: 0 3vw;
+  position: relative;
+  border-radius: 1vw;
+}
+.HotText {
+  color: rgb(189, 78, 4);
+}
+
+.sliderControls {
+}
+.sliderControlButton {
+}
+.prevButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 2vw;
+  opacity: 0.7;
+  color: #f6df7e;
+}
+.nextButton {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 2vw;
+  opacity: 0.7;
+  color: #f6df7e;
+}
+/* ===========allProduct_div ================ */
+.allProduct_div {
+  /* background-color: #a8750d; */
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+.dealCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5vw;
+}
+.NecessaryText {
+  margin-top: 0.5vh;
+  margin-left: 2vw;
+}
+
+/* /==================/========media query=============================== */
+
+@media screen and (max-width: 600px) {
+  .categoryNav {
+    display: none;
+  }
+
+  .home_content {
+    top: 10vh;
+  }
+
+  .home_content {
+    min-height: 90vh;
+  }
+  .content {
+    min-height: 85vh;
+  }
+}
